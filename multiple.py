@@ -1,5 +1,5 @@
 def calculate(a,b):
-    print("sum =",a+b)
-    print("sub =",a-b)
-    
-calculate(20,5)
+    return a+b,a-b
+
+rep=calculate(20,5)
+print(rep)
